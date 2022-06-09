@@ -1,0 +1,49 @@
+/*Estilos do cabeçalho*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    padding: 6px;
+    border-bottom: 1px solid;
+    border-color: #633c27;
+}
+
+nav{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#logo-cabecalho{
+    width: 150px;
+}
+
+#carrinho-compra{
+    height: 40px;
+    margin-left: 6px;
+    margin-right: 8px;
+}
+
+.link-login{
+    background-color: #ffffff;
+    height: 40px;
+    width: 70px;
+    color: #633c27;
+    border: solid 1px;
+    border-color: #633c27;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+/*---THE END (Estilos do cabeçalho)---*/
+
+
+/*Estilos do rodapé*/
+footer{
+    background-color: #633c27;
+    width: 1280px;
+    color: #ffffff;
+}
