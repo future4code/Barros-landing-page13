@@ -1,3 +1,10 @@
+/*Estilos do gerais*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
 /*Estilos do cabeçalho*/
 header{
     display: flex;
@@ -9,7 +16,7 @@ header{
     border-color: #633c27;
 }
 
-nav{
+#login-carrinho{
     height: 40px;
     display: flex;
     align-items: center;
@@ -38,12 +45,111 @@ nav{
     font-size: 15px;
     cursor: pointer;
 }
+
+.link-login:hover {
+    background-color: #633c27;
+    height: 40px;
+    width: 70px;
+    color: #ffffff;
+    border: solid 1px;
+    border-color: #633c27;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    cursor: pointer;;
+}
 /*---THE END (Estilos do cabeçalho)---*/
 
+/*Estilos do menu*/
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 6px;
+    width: 1280px;
+}
+.menu{
+    width: 200px;
+    height: 70px;
+    border: solid 1px;
+    border-color: #633c27;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #633c27;
+}
+
+.menu:hover{
+    cursor: pointer;
+}
+
+.link-menu:link{
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.link-menu:visited{
+    color: #633c27;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.icon-menu{
+    width: 50px;
+    height: 50px;
+}
+
+/*---THE END (Estilos do menu)---*/
+
+/*Estilos do conteúdo home*/
+
+main{
+    text-align: center;
+}
+
+/*---THE END (Estilos do conteúdo home)---*/
 
 /*Estilos do rodapé*/
 footer{
     background-color: #633c27;
     width: 1280px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
     color: #ffffff;
+    padding: 6px;
+    text-align: center;
 }
+
+#contatos{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.redes-rodape{
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#icones-redes{
+    text-align: center;
+    border-right: 1px solid;
+    border-color: #ffffff;
+    padding-right: 6px;
+    width: 640px;
+    margin-right: 250px;
+}
+/*---THE END (Estilos do rodapé)---*/
