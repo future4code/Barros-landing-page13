@@ -2,6 +2,7 @@
     color: #5b321c;
     padding: 10px;
     margin-left: 10px;
+    text-align: center;
 }
 .container-delivery{
     display: grid;
@@ -40,5 +41,6 @@
 .lojas-delivery>div>p{
     text-align:left;
     color: #5b321c ;
+
 
 }
