@@ -1,0 +1,44 @@
+.h1-delivery{
+    color: #5b321c;
+    padding: 10px;
+    margin-left: 10px;
+}
+.container-delivery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 5px;
+
+}
+.lojas-delivery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    width: 250px;
+    box-shadow: 3px 3px 6px darkgray;
+    padding: 15px;
+    
+    
+
+}
+.lojas-delivery>img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+.lojas-delivery>div>h3{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #5b321c;
+   
+
+}
+.lojas-delivery>div>p{
+    text-align:left;
+    color: #5b321c ;
+
+}
