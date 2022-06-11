@@ -2,13 +2,13 @@ body{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header{
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px rgba(139, 69, 19, 0.192) solid;
+  border-bottom: 1px rgba(187, 132, 92, 0.884) solid;
   padding-bottom: 2px;
   text-align: center;
   align-items:center;
@@ -46,6 +46,7 @@ li:hover{
   background-color: #9b6041f6;
   color: rgb(255, 255, 255);
   transition: 0.2s;
+  
 
 }
 .lista-itens-mercado{
@@ -58,8 +59,6 @@ li:hover{
 .header-input{
   padding: 10px;
   flex: .7;
-  
-  
 }
 
 input{
@@ -70,7 +69,7 @@ input{
 }
 
 footer{
-  background-color: #9b6041f6;;
+  background-color: #9b6041f6;
   color:rgb(255, 255, 255);
   display: flex;
   bottom: 0;
@@ -86,4 +85,47 @@ footer{
 .img-footer{
   width: 50px;
 }
+
+main, a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-decoration: none;
+  
+
+
+}
+.produtos{
+  border: 1px solid #e0e0e0;
+  flex: .2;
+  border-top: 4px solid rgb(182, 121, 72);
+  margin: 10px;
+  height: 320px;
+  text-align: center;
+  border-radius: 3px; 
+  box-shadow: 0px 0px 8px 2px #7a737348;
+}
+
+.btn-comprar{
+  display: flex;
+  background-color: #9b6041f6;
+  border-radius: 3px;
+  width: 200px;
+  justify-content: space-around;
+  border: 2px solid rgb(194, 172, 155);
+  margin-left: 7px;
+  padding: 10px;
+  color: aliceblue;
+}
+span{
+  font-size: 30px;
+}
+
+a:hover {
+  font-size:1.2em;
+  color: white;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;}
+
+
 
