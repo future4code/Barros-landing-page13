@@ -58,8 +58,6 @@ li:hover{
 .header-input{
   padding: 10px;
   flex: .7;
-  
-  
 }
 
 input{
@@ -70,7 +68,7 @@ input{
 }
 
 footer{
-  background-color: #9b6041f6;;
+  background-color: #9b6041f6;
   color:rgb(255, 255, 255);
   display: flex;
   bottom: 0;
@@ -87,3 +85,22 @@ footer{
   width: 50px;
 }
 
+main, a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+.img-produtos{
+  border: 1px solid;
+  flex: .2;
+  border-top: 5px solid;
+  margin: 10px;
+  height: 300px;
+  text-align: center; 
+}
+
+.btn-comprar{
+  background-color: #9b6041f6;
+  
+}
