@@ -13,7 +13,7 @@ header{
     width: 1280px;
     padding: 6px;
     border-bottom: 1px solid;
-    border-color: #633c27;
+    border-color: #9b6041f6;
 }
 
 #login-carrinho{
@@ -23,7 +23,7 @@ header{
 }
 
 #logo-cabecalho{
-    width: 150px;
+    width: 80px;
 }
 
 #carrinho-compra{
@@ -38,7 +38,7 @@ header{
     width: 70px;
     color: #633c27;
     border: solid 1px;
-    border-color: #633c27;
+    border-color: #9b6041f6;
     border-radius: 10px;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
@@ -47,12 +47,12 @@ header{
 }
 
 .link-login:hover {
-    background-color: #633c27;
+    background-color: #9b6041f6;
     height: 40px;
     width: 70px;
     color: #ffffff;
     border: solid 1px;
-    border-color: #633c27;
+    border-color: #9b6041f6;
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
@@ -72,7 +72,7 @@ nav{
     width: 200px;
     height: 70px;
     border: solid 1px;
-    border-color: #633c27;
+    border-color: #9b6041f6;
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
@@ -113,14 +113,52 @@ nav{
 /*Estilos do conteúdo home*/
 
 main{
+    width: 1280px;
+}
+
+#todos-anuncios{
+    display: flex;
+    justify-content: space-around;
+}
+
+.anuncio{
+    width: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #633c27;
+    font-size: 19px;
     text-align: center;
+    padding: 6px 6px 6px 6px;
+    margin: 6px 6px 6px 6px;
+    box-shadow: 3px 3px 3px 4px darkgray
+}
+
+.img-anuncio{
+    width: 350px;
+    height: 230px;
+    border: none;
+    border-radius: 10px;
+}
+
+#sobre{
+    margin-top: 8px;
+    border-top: 4px solid;
+    border-color: #9b6041f6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #633c27;
+    font-size: 19px;
+    display: flex;
+    align-items: center
+}
+
+#img-logo{
+    width: 250px;
 }
 
 /*---THE END (Estilos do conteúdo home)---*/
 
 /*Estilos do rodapé*/
 footer{
-    background-color: #633c27;
+    background-color: #9b6041f6;
     width: 1280px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
