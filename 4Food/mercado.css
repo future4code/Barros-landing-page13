@@ -14,7 +14,7 @@ header{
   align-items:center;
   flex-wrap: wrap;
 }
-.logo-header{
+.logo-header, .carrinho{
   flex: .2
 
 }
@@ -128,4 +128,10 @@ a:hover {
   transition-timing-function: ease-in-out;}
 
 
+.carrinho{
+  width: 40px;
+  margin-right:20px;
+  
 
+  
+}
