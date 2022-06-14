@@ -69,7 +69,7 @@ nav{
     width: 1280px;
 }
 .menu{
-    width: 200px;
+    width: 100px;
     height: 70px;
     border: solid 1px;
     border-color: #9b6041f6;
@@ -80,6 +80,7 @@ nav{
     padding: 10px;
     margin: 10px;
     color: #633c27;
+    box-shadow: 2px 2px 2px 2px darkgray
 }
 
 .menu:hover{
@@ -129,7 +130,7 @@ main{
     text-align: center;
     padding: 6px 6px 6px 6px;
     margin: 6px 6px 6px 6px;
-    box-shadow: 3px 3px 3px 4px darkgray
+    box-shadow: 3px 3px 3px 3px darkgray
 }
 
 .img-anuncio{
