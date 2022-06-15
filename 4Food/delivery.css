@@ -1,5 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*Estilos do cabeçalho*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 6px;
+    border-bottom: 1px solid;
+    border-color: #633c27;
+}
+
+#login-carrinho{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#logo-cabecalho{
+    width: 150px;
+}
+
+#carrinho-compra{
+    height: 40px;
+    margin-left: 6px;
+    margin-right: 8px;
+}
+
+.link-login{
+    background-color: #ffffff;
+    height: 40px;
+    width: 70px;
+    color: #633c27;
+    border: solid 1px;
+    border-color: #633c27;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.link-login:hover {
+    background-color: #633c27;
+    height: 40px;
+    width: 70px;
+    color: #ffffff;
+    border: solid 1px;
+    border-color: #633c27;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    cursor: pointer;;
+}
+nav{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 10px;
+    justify-content: center;
+    background-color: #5b321c;
+}
+nav>form{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+    border-color: white;
+    border-radius: 5px;
+    width: 290px;
+    
+}
+nav>form>button{
+    height: 30px;
+    width: 28px;
+    
+}
+nav>form>button>img{
+    width: 27px;
+
+
+}
+nav>form>input{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+/* ESTILO MAIN*/
+
 .h1-delivery{
-    color: #5b321c;
+    color: white;
     padding: 10px;
     margin-left: 10px;
     text-align: center;
@@ -8,8 +103,12 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 5px;
+    justify-items: center;
+    row-gap: 10px;
 
+    
 }
+
 .lojas-delivery{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -17,9 +116,6 @@
     width: 250px;
     box-shadow: 3px 3px 7px darkgray;
     padding: 15px;
-    
-    
-
 }
 .lojas-delivery>img{
     border-radius: 50%;
@@ -43,4 +139,71 @@
     color: #5b321c ;
 
 
+}
+footer{
+    background-color: #633c27;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 6px;
+    text-align: center;
+}
+
+#contatos{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.redes-rodape{
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#icones-redes{
+    text-align: center;
+    border-right: 1px solid;
+    border-color: #ffffff;
+    padding-right: 6px;
+    width: 640px;
+    margin-right: 250px;
+}
+@media screen and (max-device-width:450px) {
+    nav{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        padding: 15px;
+        justify-content: center;
+        background-color: #5b321c;
+    }
+    nav>form{
+        display: grid;
+        grid-template-columns: 190px 1fr;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        width: 100%;
+        padding: 1px;
+    }
+    .container-delivery{
+        display: block;
+    }
+    .lojas-delivery{
+        width: auto;
+    }
+    #contatos{
+        display: block;
+    }
+    #icones-redes{
+        border-right: none;
+        width: 100%;
+    }
+
+
+     
 }
