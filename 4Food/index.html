@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
     <title>4FOOD</title>
 
     <link rel="stylesheet" href="style.css">
@@ -47,6 +47,33 @@
 
     <!--Conteúdo-->
     <main>
+        <section id="sobre">
+            <img src="img/4food logo.png" alt="Logo da 4food" id="img-logo">
+            <p>
+                A rede de supermecardos 4FOOD, sempre pensando no bem estar de seus clientes, agora também 
+                está online. Para que você coma bem sem sair de casa. <br>
+                Nossa seleção dos melhores produtos a sua disposição com um clique. <br>
+                E não é só isso... Agora temos nosso sistema de delivery, com os melhores pratos, caso você não 
+                queira ir para cozinha.
+          </p>
+        </section>
+        <section id="formulario">
+            <p>Receba as nossas novidades e promoções</p>
+            <form action="">
+                <label for="secao">Qual a seção?</label>
+                <select name="assunto" id="assunto" class="item-form">
+                    <option value="sem-secao" selected>Faça a sua escolha</option>
+                    <option value="mercado">Mercado</option>
+                    <option value="delivery">Delivery</option>    
+                    <option value="ambas">Ambas</option>
+                </select>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="Digite o E-mail" class="item-form">
+
+                <input type="submit" value="Enviar" class="item-form">
+                
+            </form>
+        </section>
         <div id="todos-anuncios">
             <section class="anuncio">
                 <img src="img/hortfruti.jpg" alt="Frutas, legumes e verduras em um caixote de madeira" class="img-anuncio">
@@ -64,16 +91,6 @@
                 <p>❤</p>
             </section>
         </div>
-        <section id="sobre">
-            <img src="img/4food logo.png" alt="Logo da 4food" id="img-logo">
-            <p>
-                A rede de supermecardos 4FOOD, sempre pensando no bem estar de seus clientes, agora também 
-                está online. Para que você coma bem sem sair de casa. <br>
-                Nossa seleção dos melhores produtos a sua disposição com um clique. <br>
-                E não é só isso... Agora temos nosso sistema de delivery, com os melhores pratos, caso você não 
-                queira ir para cozinha.
-          </p>
-        </section>
     </main>
 
     <!--Rodapé-->
@@ -96,7 +113,7 @@
                 <p>contato@4food.com</p>
             </section>
         </div>
-        <p>© 2022 4FOOD | Landing Page 13 & Cia. Todos os direitos reservados</p>
+        <p id="direitos">© 2022 4FOOD | Landing Page 13 & Cia. Todos os direitos reservados</p>
     </footer>
 
 </body>
