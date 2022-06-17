@@ -1,4 +1,6 @@
 
+/* body  */
+
 .container{
     width: 100vh;
     display: grid;
@@ -20,6 +22,8 @@ h1{
 color: #633c27
 }
 
+/* formulario */
+
 .formulario{
     padding: 10px;
     width: 230px;
@@ -28,6 +32,8 @@ color: #633c27
     
 }
 
+/* logotipo  */
+
 .logotipo{
 text-align: center;
 padding: 0px;
@@ -35,6 +41,8 @@ margin: 0px;
     
 }
     
+/* botão  */
+
 .botao-entrar{
     width: 190px;
     margin: 10px auto;
@@ -65,6 +73,8 @@ top: 5px;
 box-shadow: none;
 }
 
+ /* rodapé  */
+
 footer{
     background-color: #633c27;;
     color:rgb(255, 255, 255);
@@ -82,3 +92,23 @@ footer{
   .img-footer{
     width: 50px;
   }
+
+  @media screen and (min-device-width : 100px) and (max-device-width : 480px) {
+    /* celulares */
+    /*Estilos do gerais*/
+
+
+    .formulario{
+        margin-right: 2400px
+    }
+
+    .botao-entrar{
+        margin-right: 2440px
+    }
+    
+    .logotipo{
+        margin-right: 2300px;
+        height: 430px
+    }
+
+}
