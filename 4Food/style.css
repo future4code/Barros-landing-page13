@@ -1,0 +1,317 @@
+/*Estilos do gerais*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*Estilos do cabeçalho*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    padding: 6px;
+    border-bottom: 1px solid;
+    border-color: #9b6041f6;
+}
+
+#login-carrinho{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#logo-cabecalho{
+    width: 80px;
+}
+
+#carrinho-compra{
+    height: 40px;
+    margin-left: 6px;
+    margin-right: 8px;
+}
+
+.link-login{
+    background-color: #ffffff;
+    height: 40px;
+    width: 70px;
+    color: #633c27;
+    border: solid 1px;
+    border-color: #9b6041f6;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.link-login:hover {
+    background-color: #9b6041f6;
+    height: 40px;
+    width: 70px;
+    color: #ffffff;
+    border: solid 1px;
+    border-color: #9b6041f6;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    cursor: pointer;;
+}
+/*---THE END (Estilos do cabeçalho)---*/
+
+/*Estilos do menu*/
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 6px;
+    width: 1280px;
+}
+.menu{
+    width: 200px;
+    height: 70px;
+    border: solid 1px;
+    border-color: #9b6041f6;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #633c27;
+}
+
+.menu:hover{
+    background-color: #daac93f6;
+}
+
+.link-menu:link{
+    color: #633c27;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.link-menu:visited{
+    color: #633c27;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.icon-menu{
+    width: 50px;
+    height: 50px;
+}
+
+/*---THE END (Estilos do menu)---*/
+
+/*Estilos do conteúdo home*/
+
+main{
+    width: 1280px;
+}
+
+#todos-anuncios{
+    display: flex;
+    justify-content: space-around;
+}
+
+.anuncio{
+    width: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #633c27;
+    font-size: 19px;
+    text-align: center;
+    padding: 6px 6px 6px 6px;
+    margin: 6px 6px 6px 6px;
+    box-shadow: 3px 3px 3px 4px darkgray
+}
+
+.img-anuncio{
+    width: 350px;
+    height: 230px;
+    border: none;
+    border-radius: 10px;
+}
+
+#sobre{
+    margin-top: 8px;
+    border-top: 4px solid;
+    border-color: #9b6041f6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #633c27;
+    text-align: justify;
+    font-size: 19px;
+    display: flex;
+    align-items: center
+}
+
+#img-logo{
+    width: 250px;
+}
+
+#formulario{
+    padding: 10px;
+    text-align: center;
+    background-color: #9b6041f6;
+    color:#ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    margin-top: 7px;
+    margin-bottom: 6px;
+    border-top: groove 5px;
+    border-bottom: groove 5px;  
+    border-radius: 10px;
+}
+
+.item-form{
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #633c27;
+    font-size: 15px;
+    background-color: #ffffff;
+    padding: 3px;
+    margin: 5px;
+}
+
+
+/*---THE END (Estilos do conteúdo home)---*/
+
+/*Estilos do rodapé*/
+footer{
+    background-color: #9b6041f6;
+    width: 1280px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 6px;
+    text-align: center;
+    margin-top: 6px;
+}
+
+#contatos{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.redes-rodape{
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#icones-redes{
+    text-align: center;
+    border-right: 1px solid;
+    border-color: #ffffff;
+    padding-right: 6px;
+    width: 640px;
+    margin-right: 250px;
+}
+/*---THE END (Estilos do rodapé)---*/
+
+/*---Responsividade---*/
+
+@media screen and (min-device-width : 100px) and (max-device-width : 480px) {
+    /* celulares */
+    /*Estilos do gerais*/
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    header{
+        width: 99vw;
+        margin: auto;
+        padding: 1px;
+    }
+
+    .menu{
+        width: 100px;
+        height: 70px;
+    }
+
+    nav{
+        width: 100vw;
+    }
+
+    main{
+        width: 100vw;
+    }
+
+    #sobre{
+        flex-direction: column;
+        margin: 2vw;
+    }
+
+    #todos-anuncios{
+        width: 90vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+    }
+    
+    .anuncio{
+        width: 85vw;
+    }
+
+    .img-anuncio{
+        width: 80vw;
+        height: 55vw;
+        border: none;
+        border-radius: 10px;
+    }
+    
+    #img-logo{
+        margin-bottom: 0%;
+        width: 80vw;
+        height: 70vw;
+    }
+
+    footer{
+        width: 99vw;
+        margin-top: 6px;
+    }
+
+    #icones-redes{
+        text-align: center;
+        border: none;
+        padding-right: none;
+        width: 95vw;
+    }
+    
+    #contatos{
+        display: flex;
+        align-items: center;
+        margin-bottom: 12px;
+        flex-direction: column;
+    }
+    
+    .redes-rodape{
+        margin: none;
+    }
+    
+    #icones-redes{
+        text-align: center;
+        border: none;
+        padding-right: none;
+        width: 99vw;
+        margin-right: auto;
+    }
+
+    #direitos{
+        width: 95vw;
+    }
+}

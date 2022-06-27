@@ -1,0 +1,114 @@
+
+/* body  */
+
+.container{
+    width: 100vh;
+    display: grid;
+    height: 30vh;
+    
+}
+
+body {
+    
+    margin: 0%;
+    padding: 0%;
+    width: 100vh;
+    text-align: center;
+
+ }
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #633c27
+}
+
+/* formulario */
+
+.formulario{
+    padding: 10px;
+    width: 230px;
+    margin: 10px auto;
+    border: 5px solid #633c27;
+    
+}
+
+/* logotipo  */
+
+.logotipo{
+text-align: center;
+padding: 0px;
+margin: 0px;
+    
+}
+    
+/* botão  */
+
+.botao-entrar{
+    width: 190px;
+    margin: 10px auto;
+
+}
+
+button{
+ cursor: pointer;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ text-transform: uppercase;
+ font-weight: 700;
+ border: none;
+ padding: 9px;
+ width: 200px;
+ margin: 0px auto;
+}
+
+button{
+    background-color: #633c27;
+    color: #fff;
+    box-shadow: 0 5px 0 rgb(63, 29, 10);
+}
+
+.botao-entrar:active {
+position: relative;
+top: 5px;
+box-shadow: none;
+}
+
+ /* rodapé  */
+
+footer{
+    background-color: #633c27;;
+    color:rgb(255, 255, 255);
+    display: flex;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+  
+  }
+  .logo-footer{
+    flex:.2;
+  }
+  .img-footer{
+    width: 50px;
+  }
+
+  @media screen and (min-device-width : 100px) and (max-device-width : 480px) {
+    /* celulares */
+    /*Estilos do gerais*/
+
+
+    .formulario{
+        margin-right: 2400px
+    }
+
+    .botao-entrar{
+        margin-right: 2440px
+    }
+    
+    .logotipo{
+        margin-right: 2300px;
+        height: 430px
+    }
+
+}
